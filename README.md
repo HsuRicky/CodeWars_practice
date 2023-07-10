@@ -1,4 +1,4 @@
-# CodeWars_practice
+# CodeWars Python practice
 >  Welcome everybody, I will continue to share my answer.  
 >  If you have any questions, welcome to discuss.  
   
