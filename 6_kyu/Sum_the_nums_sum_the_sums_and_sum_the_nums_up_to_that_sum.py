@@ -1,15 +1,15 @@
 # https://www.codewars.com/kata/562c04fc8546d8147b000039
+# Execution Timed Out!!!
 def sum_of_sums(n):
-    def S(m):
-        return int(m * (m + 1) / 2)
+    def S(n):
+        return int(n * (n + 1) / 2)
 
     def Z(n):
         res = 0
-        for _ in range(1, n+1):
-            res += S(n)
-            print(n)
+        for i in range(1, n+1):
+            res += S(i)
         return res
 
-    return Z(n)
+    return S(Z(n))
 
-print(sum_of_sums(3))
+# print(sum_of_sums(3))
